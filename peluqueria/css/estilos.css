@@ -1,0 +1,202 @@
+body
+{
+  background-color: #FBFAF8;
+  color: #f5eeee;
+  background-image: url(/peluqueria/imagenes/peluqueria.jpg);
+}
+a
+{
+padding: 1px 2px;
+font-size: 1.20em;
+color: #ccc;
+text-decoration: none;
+transition-duration: 0.4s;
+box-sizing: border-box;
+border-radius: 5px;
+}
+
+div{
+
+  font-size: 16px;
+    background: #eaebec;
+    margin: 0px auto;
+    border: #ccc 1px solid;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #d1d1d1;
+    text-align: left;
+}
+
+caption
+{
+  font-size: 18px;
+  padding: 5px;
+    border-radius: 4px;
+  margin: 5px 5px 5px 5px;
+}
+
+.imgs{width:98%;}
+
+#contenedor
+{
+    position: relative;
+    width: 80%;
+    height: 1000px;
+    left: 40px;
+    margin-top: 00px;
+    background-color: #E4EABB;
+    clear: both;
+}
+#cabecera
+{
+  text-align: center;
+  padding: 0px 0;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  color:black;
+  background-color:#F4F8BD;
+  border-radius: 5px;
+  clear: both;
+}
+#enlaces
+{
+         text-align: center;
+    padding: 0px 0;
+    margin: 8px;
+    height: auto;
+    margin-top: 4px;
+    box-sizing: border-box;
+    color: black;
+    background-color: #FAF8FB;
+    border-radius: 5px;
+    clear: both;
+}
+#contenido
+{
+        text-align: center;
+    position: initial;
+    width: 90%;
+    margin: 32px;
+    margin-left: 67px;
+    margin-top: -2px;
+    height: 79%;
+    top: 100px;
+    float: left;
+    background-color: #BDBDBD;
+    color: black;
+
+
+}
+#error
+{
+    background: #BDBDBD;
+    color: black;
+}
+#resultado
+{
+    background: black;
+    color: white;
+}
+.mensaje
+{
+    background: black;
+}
+
+.mapa iframe
+{
+-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height:210px;
+  border: none;
+  line-height: 0;
+  overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* lo que va a registrar*/
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    text-align: left;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px #fff;
+    background: #eaebec;
+    border: #ccc 1px solid;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #d1d1d1;
+    text-align: left;
+    padding: 5px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    background: #fafafa;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+    text-align: center;
+    padding-left: 5px;
+}
+table
+{
+    font-size: 16px;
+    text-shadow: 1px 1px 0px #fff;
+    background: #eaebec;
+    margin: 0px auto;
+    border: #ccc 1px solid;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #d1d1d1;
+    text-align: left;
+
+}
+
+table tr
+{
+    text-align: center;
+    padding-left: 5px;
+}
+
+table td
+{
+    padding: 5px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    background: #fafafa;
+}
+li a:hover
+{
+    background-color: red;
+}
+
+@media screen and (max-width: 600px){
+    ul li {float: none;}
